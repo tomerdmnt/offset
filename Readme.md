@@ -3,6 +3,14 @@
 
   Get element offset
 
+  ```javascript
+     var offset = require('tomerdmnt/offset');
+
+     var o = offset(document.querySelector('div');
+     console.log('x: ' + o.x);
+     console.log('y: ' + o.y);
+  ```
+
 ## Installation
 
     $ component install tomerdmnt/offset
