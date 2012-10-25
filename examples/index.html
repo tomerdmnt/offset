@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <script src="../build/build.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      var offset = require('offset');
+
+      window.addEventListener('load', function (e) {
+
+          var offset1 = offset(document.getElementById('div1'));
+          console.log(offset1);
+
+          var offset2 = offset(document.getElementById('div2'));
+          console.log(offset2);
+      });
+
+    </script>
+  </head>
+  <body style="padding: 10px; margin: 5px;">
+    <div id="div1">
+      Foo
+    </div>
+    <div style="position: absolute; top: 50px; left: 50px;">
+      <div style="position: relative; top: 25px; left: 25px;">
+        <div id="div2">
+          Bar
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

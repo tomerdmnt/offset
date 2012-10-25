@@ -1,0 +1,12 @@
+{
+  "name": "offset",
+  "repo": "tomerdmnt/offset",
+  "description": "Get element offset relative to the document",
+  "version": "0.0.1",
+  "keywords": [ "position", "offset", "DOM", "dom"],
+  "dependencies": {},
+  "development": {},
+  "scripts": [
+    "index.js"
+  ]
+}
