@@ -1,7 +1,7 @@
 
 # offset
 
-  Get element offset relative to the document
+  Get element offset
 
 ## Installation
 
