@@ -4,7 +4,7 @@
   Get element offset
 
   ```javascript
-     var offset = require('tomerdmnt/offset');
+     var offset = require('tomerdmnt-offset');
 
      var o = offset(document.querySelector('div');
      console.log('x: ' + o.x);
