@@ -1,14 +1,13 @@
-
 # offset
 
   Get element offset
 
   ```javascript
-     var offset = require('offset');
+var offset = require('offset');
 
-     var o = offset(document.querySelector('div');
-     console.log('x: ' + o.x);
-     console.log('y: ' + o.y);
+var o = offset(document.querySelector('div'));
+console.log('x: ' + o.x);
+console.log('y: ' + o.y);
   ```
 
 ## Installation
